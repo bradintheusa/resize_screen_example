@@ -74,20 +74,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-              
                   Flexible(
                       child: FractionallySizedBox(
                           widthFactor: 0.30,
-                          child:  FittedBox(
-                          child: Container(
-                              color: Colors.red, child: const Text("Five"))))),
+                          child: FittedBox(
+                              child: Container(
+                                  color: Colors.red,
+                                  child: const Text("Five"))))),
                   Flexible(
                       child: FractionallySizedBox(
                           widthFactor: 0.50,
                           child: Container(
                               color: Colors.deepOrangeAccent,
                               child: const FittedBox(
-                          child: Text("Sixty seven"))))),
+                                  child: Text("Sixty seven"))))),
                 ],
               ),
               const Text(
